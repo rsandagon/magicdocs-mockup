@@ -1,0 +1,73 @@
+.header {
+    background:#3d74ff;
+}
+
+.footer{
+    background:#4dcdd5;
+}
+
+.no-suggestion{
+    color:#4dcdd5;
+}
+
+.warning{
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-color: #3d74ff;
+}
+
+.preview{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.toggle__dot {
+    top: -.25rem;
+    left: -.25rem;
+    transition: all 0.3s ease-in-out;
+}
+
+input:checked ~ .toggle__dot {
+    transform: translateX(100%);
+    background-color: #4dcdd5;
+}
+
+.main{
+    padding-top: 5em;
+}
+
+.container{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.svg-icon{
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+    display: inline-block;
+}
+
+svg{
+    width: 20px;
+    height: 20px;
+    fill: #384348;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 14px;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+#icon-shape {
+    fill: #fff;
+}
+
